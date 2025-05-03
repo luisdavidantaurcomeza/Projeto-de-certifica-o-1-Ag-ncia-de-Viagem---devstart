@@ -167,11 +167,11 @@ section h2::after {
 }
 
 .card-img-2 {
-    background-image: url('/api/placeholder/400/320');
+    background-image: url('/img/australia.webp');
 }
 
 .card-img-3 {
-    background-image: url('/api/placeholder/400/320');
+    background-image: url('/img/italia.webp');
 }
 
 .card-content {
@@ -219,7 +219,7 @@ section h2::after {
 }
 
 .member-img-1 {
-    background-image: url('/api/placeholder/320/320');
+    background-image: url('/img/Foto\ Luís\ david.jpg');
 }
 
 
