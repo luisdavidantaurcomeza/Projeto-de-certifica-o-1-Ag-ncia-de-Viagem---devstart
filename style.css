@@ -1,0 +1,106 @@
+*/
+
+{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    
+}
+
+body { 
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    color: #333; 
+    background: url('img/vilarejoEuropeu1.webp') center/cover no-repeat;
+
+}
+
+/* Navegação */ 
+nav { 
+    background: #fff; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    position: sticky; 
+    top: 0; 
+    z-index: 100; 
+}
+
+.menu { 
+    list-style: none;
+    display: flex; 
+    justify-content: center; 
+    padding: 1rem;
+}
+
+.menu li { 
+    margin: 0 1rem; 
+}
+
+.menu a { 
+    text-decoration: none; 
+    color: #333; 
+    padding: 0.5rem; 
+    transition: background 0.3s, color 0.3s; 
+}
+
+.menu a:hover { 
+    background: #007BFF; 
+    color: #fff; 
+    border-radius: 4px; 
+}
+
+/* Banner */ 
+.banner { 
+    height: 70vh; 
+    position: relative; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+ }
+
+.banner .overlay { 
+    background: rgba(0,0,0,0.5); 
+    padding: 2rem; 
+    text-align: center; 
+    color: #fff; 
+    border-radius: 8px; 
+}
+
+.banner h1 { 
+    font-size: 3rem; 
+    margin-bottom: 0.5rem; 
+}
+
+.banner p { 
+    font-size: 1.25rem; 
+}
+
+/* Seções */ section { padding: 4rem 2rem; 
+    max-width: 800px; 
+    margin: auto; 
+}
+
+section:nth-of-type(even) { 
+    background: #f9f9f9; 
+}
+
+section h2 { font-size: 2rem; 
+    margin-bottom: 1rem;
+    background: #33333300;
+ }
+
+/* Rodapé */ footer { 
+    background: #333; 
+    color: #fff; 
+    text-align: center; 
+    padding: 2rem 1rem; 
+    margin-top: 2rem; 
+}
+
+footer a { 
+    color: #fff; 
+    text-decoration: underline; 
+}
+
+footer a:hover { 
+    text-decoration: none; 
+}
