@@ -197,7 +197,7 @@ section h2::after {
 
 .team-member {
     text-align: center;
-    background-color: white;
+    background-color: rgb(39, 24, 24);
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -213,14 +213,13 @@ section h2::after {
     height: 150px;
     border-radius: 50%;
     margin: 0 auto 1.5rem;
-    background-color: #ddd;
+    background-color: #dddddd86;
     background-size: cover;
     background-position: center;
-}
-
-.member-img-1 {
     background-image: url('/img/Foto\ Luís\ david.jpg');
 }
+
+
 
 
 
