@@ -1,51 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EuroTrip - Sua agência de viagens para Europa</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
 </head>
 <body>
-    <div class="banner"> 
-    
-<section id="inicio">
+    <header id="home">
+        <div class="container">
+            <nav>
+                <div class="logo">EuroTrip</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#tripme">TripMe</a></li>
+                    <li><a href="#meetus">MeetUs</a></li>
+                    <li><a href="#advice">Advice</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <h1 id="tituloP">Agencia de viagens</h1>
-    <h2 id="tituloS">Venha para a Europa</h2>
-    <p id="primeiroP">Europa é um continente incrível onde podemos encontrar países mega desenvolvidos e lindos e que tem climas desde quentes até gelados. Você escolhe e nós corremos atras do restante</p>
-    
-</section>
-    <!-- Seção TripMe -->
-<section id="tripme">
-    <h2>TripMe</h2>
-    <p>Planeje sua viagem perfeita com nosso guia personalizado. Escolha destinos, datas e viva experiências únicas!</p>
-  </section>
-  
-  <!-- Seção MeetUs -->
-  <section id="meetus">
-    <h2>MeetUs</h2>
-    <p>Conheça nossa equipe de especialistas em turismo. Estamos prontos para ajudar você em cada etapa da sua jornada.</p>
-  </section>
-  
-  <!-- Seção Advice -->
-  <section id="advice">
-    <h2>Advice</h2>
-    <p>Dicas de viagem, roteiros e sugestões de locais imperdíveis ao redor do mundo.</p>
-  </section>
-  
-  <!-- Seção NosEncontre -->
-  <section id="nosencontre">
-    <h2>NosEncontre</h2>
-    <p>Escritório central: Rua das Flores, 123 - Centro, Lisboa, Portugal.</p>
-    <p>Contato: contato@tripme.com | +351 21 123 4567</p>
-  </section>
-  
-  <!-- Seção Conselhos -->
-  <section id="conselhos">
-    <h2>Conselhos</h2>
-    <p>Leve adaptadores de tomada, seguro viagem e aprenda algumas palavras do idioma local!</p>
-  </section>
-  </div>
+    <main>
+        <section class="banner">
+            <h1>Descubra a Europa Dos Sonhos</h1>
+            <p>Visite os mais belos vilarejos e cidades europeias com conforto, segurança e experiências inesquecíveis</p>
+            <a href="#tripme" class="btn">Explorar Destinos</a>
+        </section>
+
+        <section id="tripme" class="container">
+            <h2>TripMe</h2>
+            <div class="trip-cards">
+                <div class="trip-card">
+                    <div class="card-img card-img-1"></div>
+                    <div class="card-content">
+                        <h3>Santorini, Grécia</h3>
+                        <p>Descubra as casas brancas e azuis com vistas deslumbrantes para o Mar Egeu em um dos destinos mais românticos da Europa.</p>
+                        <a href="#" class="btn">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="trip-card">
+                    <div class="card-img card-img-2"></div>
+                    <div class="card-content">
+                        <h3>Hallstatt, Áustria</h3>
+                        <p>Visite este pitoresco vilarejo alpino às margens de um lago cristalino, cercado por montanhas majestosas.</p>
+                        <a href="#" class="btn">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="trip-card">
+                    <div class="card-img card-img-3"></div>
+                    <div class="card-content">
+                        <h3>Cinque Terre, Itália</h3>
+                        <p>Conheça as cinco vilas coloridas à beira-mar, conectadas por trilhas com vistas de tirar o fôlego.</p>
+                        <a href="#" class="btn">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="meetus" class="container">
+            <h2>MeetUs</h2>
+            <div class="team">
+                <div class="team-member">
+                    <div class="member-img member-img-1"></div>
+                    <h3>Luís David</h3>
+                    <p>Especialista em T.I.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="advice" class="container">
+            <h2>Advice</h2>
+            <div class="advice-container">
+                <div class="advice-item">
+                    <div class="advice-icon">✓</div>
+                    <div class="advice-content">
+                        <h3>Melhor época para viajar</h3>
+                        <p>A primavera (abril a junho) e o outono (setembro a outubro) oferecem temperaturas agradáveis e menos turistas em comparação com o verão europeu.</p>
+                    </div>
+                </div>
+                <div class="advice-item">
+                    <div class="advice-icon">✓</div>
+                    <div class="advice-content">
+                        <h3>Documentação necessária</h3>
+                        <p>Para brasileiros, é necessário passaporte com validade mínima de 6 meses e seguro viagem com cobertura para países do Espaço Schengen.</p>
+                    </div>
+                </div>
+                <div class="advice-item">
+                    <div class="advice-icon">✓</div>
+                    <div class="advice-content">
+                        <h3>Transporte local</h3>
+                        <p>Invista no Eurail Pass se planeja visitar múltiplos países. Para deslocamentos urbanos, os cartões de transporte público de cada cidade geralmente oferecem boa economia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 EuroTrip - Sua agência especializada em viagens pela Europa</p>
+        </div>
+    </footer>
+
+    <a href="#home" class="back-to-top">↑</a>
 </body>
 </html>
